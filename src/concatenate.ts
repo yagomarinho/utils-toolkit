@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { Merge, ValidObject } from '@davna/kernel'
+import { Merge, ValidObject } from '@yagomarinho/ts-toolkit'
 
 export function concatenate<A extends ValidObject, B extends ValidObject>(
   a: A,

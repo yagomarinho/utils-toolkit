@@ -1,11 +1,13 @@
 {
   "name": "@yagomarinho/utils-toolkit",
-  "version": "0.1.0",
-  "types": "index.ts",
+  "version": "0.2.0",
   "exports": {
     ".": {
+      "import": "./src/index.ts",
       "types": "./src/index.ts"
-    }
+    },
+    "./concatenate": "./src/concatenate.ts",
+    "./is.primitive": "./src/is.primitive.ts"
   },
   "files": [
     "src"
@@ -20,6 +22,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yagomarinho/utils-toolkit.git"
+  },
+  "dependencies": {
+    "@yagomarinho/ts-toolkit": "^0.1.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
