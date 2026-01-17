@@ -24,7 +24,7 @@
     "url": "git+https://github.com/yagomarinho/utils-toolkit.git"
   },
   "dependencies": {
-    "@yagomarinho/ts-toolkit": "^0.1.0"
+    "@yagomarinho/ts-toolkit": "^0.2.0"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
